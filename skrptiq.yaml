@@ -3,7 +3,7 @@ id: "7ba46a2f-057c-4f13-bd85-d3bc9a44c04b"
 name: "design-handoff-pipeline"
 display_name: "Design-to-Developer Handoff Pipeline"
 description: "Review designs, generate component specs, define responsive requirements, audit accessibility, and produce handoff documentation"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=1.0.0"
 
 # --- Attribution ---
