@@ -35,19 +35,26 @@ composite_steps:
   - "consistency-check"
 execution:
   - skill: "design-review"
+    prompt: "review-design-decisions"
     step_type: "synthesis"
   - skill: "component-specification"
+    prompt: "specify-components"
     step_type: "generation"
   - skill: "responsive-requirements"
+    prompt: "define-responsive-requirements"
     step_type: "generation"
   - skill: "accessibility-audit"
+    prompt: "audit-accessibility"
     step_type: "review"
   - skill: "handoff-documentation"
+    prompt: "write-handoff-docs"
     step_type: "generation"
   - skill: "language-polish"
+    prompt: "polish-language"
     step_type: "content"
   - parallel:
     - skill: "consistency-check"
+      prompt: "check-consistency"
       step_type: "review"
 ---
 
